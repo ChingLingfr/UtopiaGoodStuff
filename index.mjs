@@ -22,7 +22,7 @@ const port = process.env.PORT || 8080;
 
 //proxy.bundleScripts();
 
-const bare =  createServer('/bare/');
+const bare =  createServer("https://uv.holyubofficial.net/");
 const serve = new nodeStatic.Server('main/');
 
 const server = http.createServer();
